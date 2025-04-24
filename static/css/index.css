@@ -115,13 +115,28 @@ body {
   overflow: hidden;
 }
 
-/* .results-carousel .item {
+#results-carousel .slider {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* 或者 center，看你想要的水平对齐 */
+}
+
+#results-carousel .slider-pagination {
+  /* margin-bottom: 40rem;    */
+  display: none !important;
+}
+
+/* .results-carousel .container {
+  height: auto;
+}
+.results-carousel .item {
   margin: 20px;
   overflow: hidden;
   border: 1px solid #bbb;
   border-radius: 10px;
   padding: 5px;
   font-size: 0;
+  height: auto;
 } */
 
 .stats-image {
